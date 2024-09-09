@@ -183,11 +183,9 @@ while True:
     # Listar Contas
     elif opcao == 6:
         listar_contas(contas_bancarias)    
-
     elif opcao == 0:
         os.system('cls')
         break
-
     else:
         print("\nOpção Inválida! Selecione uma das opções.")
         time.sleep(2.5)
